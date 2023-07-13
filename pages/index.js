@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="Welcome to screenJunction.com!" />
         <p className="description">
-          Coming Soon</code>
+          <code>Coming Soon</code>
         </p>
       </main>
 
