@@ -12,7 +12,6 @@ export default function Home() {
 
       <main>
         <Header title="Welcome to screenJunction.com!" />
-        <img src="/logo.png" alt="Netlify Logo" className={styles.logo} />
         <p className="description">
           Coming Soon
         </p>
