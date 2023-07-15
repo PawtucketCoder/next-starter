@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
+// import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -11,13 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to screenJunction.com!" />
+        <Header title="Welcome to SceneJunction.com!" />
+        <img src="/logo.png" alt="SceneJunction Logo" className={styles.logo} />
         <p className="description">
-          Coming Soon
+          September We Rise!
         </p>
       </main>
-
-      <Footer />
     </div>
   )
 }
